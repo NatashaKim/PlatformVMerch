@@ -1,0 +1,650 @@
+div {
+  box-sizing: border-box;
+}
+.prototype_19 {
+  width: 1440px;
+  height: 983px;
+  background-color: #f7f7f7;
+  .Page {
+    display: flex;
+    .Wrapper {
+      width: 1019px;
+      height: 726px;
+      background-image: image-url('t-shirt.png');
+      padding-top: 1px;
+      margin-top: -1px;
+      .Artboard {
+        position: relative;
+        width: 448px;
+        margin: 245px 0px 0px 224px;
+        height: 448px;
+        box-sizing: border-box;
+        display: block;
+        .Container {
+          box-sizing: border-box;
+          display: inline-block;
+          transform-origin: 0 0;
+          display: grid;
+          margin: auto;
+          //zoom: 0.2;
+          //-moz-transform: scale(0.2);
+          grid-template-rows: 544px 544px min-content;
+          position: relative;
+          height: fit-content;
+          width: fit-content;
+          .Tag {
+            display: block;
+            color: white;
+            text-transform: uppercase;
+            font-size: 136px;
+            line-height: 148px;
+            padding: 42px 112px 62px 112px;
+            width: max-content;
+            border: 8px solid white;
+            border-radius: 126px;
+            margin: 50px;
+            height: 252px;
+            white-space: nowrap;
+          }
+          .Shadow {
+            width: 1985px;
+            height: 1156px;
+            grid-row: 3 / 4;
+            &.shadow-stroke {
+              background-image: image-url('shadowStroke.svg');
+            }
+            &.shadow-blue {
+              background-image: image-url('shadowBlue.svg');
+            }
+            &.shadow-pink {
+              background-image: image-url('shadowPink.svg');
+            }
+            &.shadow-red {
+              background-image: image-url('shadowRed.svg');
+            }
+          }
+          .Ribbon {
+            width: 1734px;
+            height: max-content;
+          }
+          .Frame {
+            height: fit-content;
+            display: grid;
+            .FirstCloud {
+              z-index: 3;
+              border-radius: 226px;
+              width: max-content;
+              height: max-content;
+              padding: 50px;
+              display: inline-flex;
+              align-content: flex-end;
+              flex-wrap: wrap;
+              .Sticker {
+                background-image: url(sticker-arrow.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+            .SecondCloud {
+              z-index: 2;
+              display: flex;
+              flex-wrap: wrap;
+              border-radius: 226px;
+              height: max-content;
+              padding: 50px;
+            }
+            .ThirdCloud {
+              z-index: 2;
+              border-radius: 226px;
+              box-sizing: border-box;
+              padding: 50px;
+              width: 452px;
+              .Sticker {
+                background-image: url(sticker-vee.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+          }
+          .Frame-left-0 {
+            height: fit-content;
+            display: grid;
+            grid-template-columns: 452px min-content;
+            grid-template-rows: repeat(auto-fit, 352px);
+            .FirstCloud {
+              grid-column: 1 / 2;
+              grid-row: 2;
+              z-index: 3;
+              border-radius: 226px;
+              top: 352px;
+              background-color: #2836ff;
+              width: max-content;
+              height: max-content;
+              padding: 50px;
+              display: inline-flex;
+              align-content: flex-end;
+              flex-wrap: wrap;
+              .Sticker {
+                background-image: url(sticker-arrow.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+            .SecondCloud {
+              grid-column: 2 / 3;
+              grid-row: 2;
+              z-index: 2;
+              display: flex;
+              flex-wrap: wrap;
+              border-radius: 226px;
+              background-color: #2836ff;
+              height: max-content;
+              padding: 50px;
+            }
+            .ThirdCloud {
+              grid-column: 1 / 2;
+              grid-row: 1;
+              z-index: 2;
+              border-radius: 226px;
+              background-color: #2836ff;
+              box-sizing: border-box;
+              padding: 50px;
+              width: 452px;
+              .Sticker {
+                background-image: url(sticker-vee.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+          }
+
+          .Frame-left-1 {
+            height: fit-content;
+            display: grid;
+            grid-template-columns: 452px min-content;
+            grid-template-rows: repeat(auto-fit, 352px);
+            .FirstCloud {
+              grid-column: 1 / 2;
+              grid-row: 2;
+              z-index: 3;
+              border-radius: 226px;
+              top: 352px;
+              background-color: #2836ff;
+              width: max-content;
+              height: max-content;
+              padding: 50px;
+              display: inline-flex;
+              align-content: flex-end;
+              flex-wrap: wrap;
+              .Sticker {
+                background-image: url(sticker-arrow.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+            .SecondCloud {
+              grid-column: 2 / 3;
+              z-index: 2;
+              display: flex;
+              flex-wrap: wrap;
+              border-radius: 226px;
+              background-color: #2836ff;
+              height: max-content;
+              padding: 50px;
+            }
+            .ThirdCloud {
+              grid-column: 1 / 2;
+              grid-row: 1;
+              z-index: 2;
+              border-radius: 226px;
+              background-color: #2836ff;
+              box-sizing: border-box;
+              padding: 50px;
+              width: 452px;
+              .Sticker {
+                background-image: url(sticker-vee.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+          }
+
+          .Frame-left-2 {
+            height: fit-content;
+            display: grid;
+            grid-template-columns: 452px min-content;
+            grid-template-rows: repeat(auto-fit, 352px);
+            .FirstCloud {
+              grid-column: 1 / 2;
+              grid-row: 3;
+              z-index: 3;
+              border-radius: 226px;
+              top: 352px;
+              background-color: #2836ff;
+              width: max-content;
+              height: max-content;
+              padding: 50px;
+              display: inline-flex;
+              align-content: flex-end;
+              flex-wrap: wrap;
+              .Sticker {
+                background-image: url(sticker-arrow.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+            .SecondCloud {
+              grid-column: 2 / 3;
+              grid-row: 1;
+              z-index: 2;
+              display: flex;
+              flex-wrap: wrap;
+              border-radius: 226px;
+              background-color: #2836ff;
+              height: max-content;
+              padding: 50px;
+            }
+            .ThirdCloud {
+              grid-column: 1 / 2;
+              grid-row: 2;
+              z-index: 2;
+              border-radius: 226px;
+              background-color: #2836ff;
+              box-sizing: border-box;
+              padding: 50px;
+              width: 452px;
+              .Sticker {
+                background-image: url(sticker-vee.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+          }
+
+          .Frame-left-3 {
+            height: fit-content;
+            display: grid;
+            grid-template-columns: 452px min-content;
+            grid-template-rows: repeat(auto-fit, 352px);
+            .FirstCloud {
+              margin-top: 352px;
+              grid-column: 1 / 2;
+              grid-row: 3;
+              z-index: 3;
+              border-radius: 226px;
+              top: 352px;
+              background-color: #2836ff;
+              width: max-content;
+              height: max-content;
+              padding: 50px;
+              display: inline-flex;
+              align-content: flex-end;
+              flex-wrap: wrap;
+              .Sticker {
+                background-image: url(sticker-arrow.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+            .SecondCloud {
+              grid-column: 2 / 3;
+              grid-row: 1;
+              z-index: 2;
+              display: flex;
+              flex-wrap: wrap;
+              border-radius: 226px;
+              background-color: #2836ff;
+              height: max-content;
+              padding: 50px;
+            }
+            .ThirdCloud {
+              margin-top: 352px;
+              grid-column: 1 / 2;
+              grid-row: 2;
+              z-index: 2;
+              border-radius: 226px;
+              background-color: #2836ff;
+              box-sizing: border-box;
+              padding: 50px;
+              width: 452px;
+              .Sticker {
+                background-image: url(sticker-vee.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+          }
+
+          .Frame-right-0 {
+            height: fit-content;
+            display: grid;
+            grid-template-columns: min-content min-content 452px;
+            grid-template-rows: repeat(auto-fit, 352px);
+            justify-content: flex-end;
+            .FirstCloud {
+              grid-column: 3 / 4;
+              justify-self: flex-end;
+              grid-row: 2;
+              z-index: 3;
+              border-radius: 226px;
+              top: 352px;
+              background-color: #2836ff;
+              width: max-content;
+              height: max-content;
+              padding: 50px;
+              display: inline-flex;
+              align-content: flex-end;
+              flex-wrap: wrap;
+              flex-direction: row-reverse;
+              .Sticker {
+                background-image: url(sticker-arrow.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+            .SecondCloud {
+              grid-row: 2;
+              grid-column: 2 / 3;
+              z-index: 2;
+              display: flex;
+              flex-wrap: wrap;
+              border-radius: 226px;
+              background-color: #2836ff;
+              height: max-content;
+              padding: 50px;
+              justify-self: end;
+              flex-direction: row-reverse;
+            }
+            .ThirdCloud {
+              grid-row: 1;
+              z-index: 2;
+              grid-column: 3 / 4;
+              border-radius: 226px;
+              background-color: #2836ff;
+              box-sizing: border-box;
+              padding: 50px;
+              width: 452px;
+              .Sticker {
+                background-image: url(sticker-vee.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+          }
+          .Frame-right-1 {
+            height: fit-content;
+            display: grid;
+            grid-template-columns: min-content min-content 452px;
+            grid-template-rows: repeat(auto-fit, 352px);
+            justify-content: flex-end;
+            .FirstCloud {
+              grid-column: 3 / 4;
+              justify-self: flex-end;
+              grid-row: 2;
+              z-index: 3;
+              border-radius: 226px;
+              top: 352px;
+              background-color: #2836ff;
+              width: max-content;
+              height: max-content;
+              padding: 50px;
+              display: inline-flex;
+              align-content: flex-end;
+              flex-wrap: wrap;
+              flex-direction: row-reverse;
+              .Sticker {
+                background-image: url(sticker-arrow.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+            .SecondCloud {
+              grid-column: 2 / 3;
+              z-index: 2;
+              display: flex;
+              flex-wrap: wrap;
+              border-radius: 226px;
+              background-color: #2836ff;
+              height: max-content;
+              padding: 50px;
+              justify-self: end;
+              flex-direction: row-reverse;
+            }
+            .ThirdCloud {
+              grid-row: 1;
+              z-index: 2;
+              grid-column: 3 / 4;
+              border-radius: 226px;
+              background-color: #2836ff;
+              box-sizing: border-box;
+              padding: 50px;
+              width: 452px;
+              .Sticker {
+                background-image: url(sticker-vee.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+          }
+
+          .Frame-right-2 {
+            height: fit-content;
+            display: grid;
+            grid-template-columns: min-content min-content 452px;
+            grid-template-rows: repeat(auto-fit, 352px);
+            justify-content: flex-end;
+            .FirstCloud {
+              grid-column: 3 / 4;
+              justify-self: flex-end;
+              grid-row: 3;
+              z-index: 3;
+              border-radius: 226px;
+              top: 352px;
+              background-color: #2836ff;
+              width: max-content;
+              height: max-content;
+              padding: 50px;
+              display: inline-flex;
+              align-content: flex-end;
+              flex-wrap: wrap;
+              flex-direction: row-reverse;
+              .Sticker {
+                background-image: url(sticker-arrow.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+            .SecondCloud {
+              grid-column: 2 / 3;
+              z-index: 2;
+              display: flex;
+              flex-wrap: wrap;
+              border-radius: 226px;
+              background-color: #2836ff;
+              height: max-content;
+              padding: 50px;
+              justify-self: end;
+              flex-direction: row-reverse;
+            }
+            .ThirdCloud {
+              grid-row: 2;
+              z-index: 2;
+              grid-column: 3 / 4;
+              border-radius: 226px;
+              background-color: #2836ff;
+              box-sizing: border-box;
+              padding: 50px;
+              width: 452px;
+              .Sticker {
+                background-image: url(sticker-vee.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+          }
+
+          .Frame-right-3 {
+            height: fit-content;
+            display: grid;
+            grid-template-columns: min-content min-content 452px;
+            grid-template-rows: repeat(auto-fit, 352px);
+            justify-content: flex-end;
+            .FirstCloud {
+              margin-top: 352px;
+              grid-column: 3 / 4;
+              justify-self: flex-end;
+              grid-row: 3;
+              z-index: 3;
+              border-radius: 226px;
+              top: 352px;
+              background-color: #2836ff;
+              width: max-content;
+              height: max-content;
+              padding: 50px;
+              display: inline-flex;
+              align-content: flex-end;
+              flex-wrap: wrap;
+              flex-direction: row-reverse;
+              .sticker {
+                background-image: url(sticker-arrow.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+            .SecondCloud {
+              grid-column: 2 / 3;
+              z-index: 2;
+              display: flex;
+              flex-wrap: wrap;
+              border-radius: 226px;
+              background-color: #2836ff;
+              height: max-content;
+              padding: 50px;
+              justify-self: end;
+              flex-direction: row-reverse;
+            }
+            .ThirdCloud {
+              margin-top: 352px;
+              grid-row: 2;
+              z-index: 2;
+              grid-column: 3 / 4;
+              border-radius: 226px;
+              background-color: #2836ff;
+              box-sizing: border-box;
+              padding: 50px;
+              width: 452px;
+              .sticker {
+                background-image: url(sticker-vee.svg);
+                width: 252px;
+                height: 252px;
+                background-size: cover;
+                margin: 50px;
+              }
+            }
+          }
+        }
+
+        .Right {
+          grid-template-columns: min-content 124px 500px;
+          .Shadow {
+            grid-column: 1 / 3;
+            justify-self: flex-end;
+            z-index: 0;
+          }
+          .Ribbon {
+            width: 1734px;
+            height: max-content;
+            grid-row: 1;
+            z-index: 1;
+            grid-column: 3 / 4;
+            justify-self: flex-end;
+            position: static;
+          }
+          .Frame {
+            display: grid;
+            grid-template-columns: min-content min-content 452px;
+            grid-template-rows: repeat(auto-fit, 352px);
+            justify-content: flex-end;
+            grid-row: 2 / 4;
+            grid-column: 1 / 2;
+            z-index: 2;
+          }
+        }
+
+        .Left {
+          grid-template-columns: 500px 124px min-content;
+          .Shadow {
+            grid-column: 2 / 4;
+            z-index: 0;
+          }
+          .Ribbon {
+            width: 1734px;
+            height: max-content;
+            z-index: 2;
+            grid-column: 1 / 4;
+            position: static;
+            grid-row: 1;
+          }
+          .Frame {
+            grid-column: 3 / 4;
+            grid-row: 2 / 4;
+            z-index: 2;
+          }
+        }
+      }
+    }
+    .Control {
+      width: 347px;
+      .ControlCard {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        width: 299px;
+        background: #ffffff;
+        border-radius: 32px;
+        h1 {
+          font-size: 14px;
+          line-height: 22px;
+        }
+        .ControlRibbon {
+        }
+      }
+    }
+  }
+}
