@@ -40,6 +40,7 @@ export default class Control extends PureComponent {
             <ButtonSet
               options={shapes}
               property={'ribbonShape'}
+              // value={value}
               handleChange={(value, property) =>
                 this.handleChange(value, property)
               }
@@ -65,7 +66,7 @@ export default class Control extends PureComponent {
             />
           </div>
 
-          <div className="ControlTags">
+          <div className="ControlShadow">
             <h1>Фон</h1>
             <ButtonSet
               options={shadows}

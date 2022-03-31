@@ -9,11 +9,7 @@ export default class Button extends PureComponent {
   render() {
     const { text, handleClick } = this.props
 
-    return (
-      <div className="Button" onClick={handleClick}>
-        {text}
-      </div>
-    )
+    return <div className="Button" onClick={handleClick}></div>
   }
 }
 

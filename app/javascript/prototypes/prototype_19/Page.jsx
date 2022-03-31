@@ -181,36 +181,43 @@ export default class Page extends PureComponent {
     } = this.state
     return (
       <div className="Page">
-        <div className="Wrapper">
-          <div
-            className="Artboard"
-            ref="artboardRef"
-            style={{ transform: 'scale(1,1)' }}
-          >
-            <Container
-              containerClass={containerClass}
-              backgroundTheme={backgroundTheme}
-              tagNumber={tagNumber}
-              shadowType={shadowType}
-              tags={tags}
-              ribbonShape={ribbonShape}
-              ribbonText={ribbonText}
-              owner={this}
-              ref="containerRef"
+        <header></header>
+        <div className="Constructor">
+          <div className="Wrapper">
+            <div
+              className="Artboard"
+              ref="artboardRef"
               style={{ transform: 'scale(1,1)' }}
-            />
+            >
+              <Container
+                containerClass={containerClass}
+                backgroundTheme={backgroundTheme}
+                tagNumber={tagNumber}
+                shadowType={shadowType}
+                tags={tags}
+                ribbonShape={ribbonShape}
+                ribbonText={ribbonText}
+                owner={this}
+                ref="containerRef"
+                style={{ transform: 'scale(1,1)' }}
+              />
+            </div>
           </div>
+          <Control
+            shapes={shapes}
+            colors={colors}
+            tagNumber={tagNumber}
+            shadows={shadows}
+            container={this}
+            handleChange={(value, property) =>
+              this.handleChange(value, property)
+            }
+            handleInputChange={(value) => this.handleInputChange(value)}
+            handleSampleAll={() => this.handleSampleAll()}
+            // value={value}
+          />
         </div>
-        <Control
-          shapes={shapes}
-          colors={colors}
-          tagNumber={tagNumber}
-          shadows={shadows}
-          container={this}
-          handleChange={(value, property) => this.handleChange(value, property)}
-          handleInputChange={(value) => this.handleInputChange(value)}
-          handleSampleAll={() => this.handleSampleAll()}
-        />
+        <footer></footer>
       </div>
     )
   }

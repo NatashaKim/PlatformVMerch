@@ -137,7 +137,9 @@ export default class Frame extends React.Component {
     frameElement.classList.add(frameClass)
   }
   componentDidUpdate(prevProps, prevState) {
-    this.componentDidMount()
+    if (this.state.tagNumber !== prevState.tagNumber) {
+      this.componentDidMount()
+    }
   }
 
   render() {

@@ -17,8 +17,7 @@ export default class Slider extends PureComponent {
 
     return (
       <div className="Slider">
-        <h3>{name}</h3>
-
+        <img className="QuantitySmall" src="/assets/quantity-small.svg" />
         <input
           ref={this.input}
           type="range"
@@ -28,6 +27,7 @@ export default class Slider extends PureComponent {
           value={value}
           onInput={this.handleChange}
         />
+        <img className="QuantityLarge" src="/assets/quantity-large.svg" />
       </div>
     )
   }
