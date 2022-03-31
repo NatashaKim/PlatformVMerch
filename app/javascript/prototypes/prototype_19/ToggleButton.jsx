@@ -18,8 +18,3 @@ export default class ToggleButton extends PureComponent {
     return <div onClick={handleClick}></div>
   }
 }
-
-// ToggleButton.propTypes = {
-//   isOn: PropTypes.bool,
-//   handleClick: PropTypes.func.isRequired
-// }

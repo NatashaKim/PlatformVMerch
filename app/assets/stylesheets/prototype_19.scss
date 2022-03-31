@@ -16,6 +16,7 @@ header {
     flex-direction: column;
     .Constructor {
       display: flex;
+      justify-content: space-between;
       .Wrapper {
         width: 1019px;
         height: 726px;
@@ -731,19 +732,19 @@ header {
               div:nth-of-type(3) {
                 background-color: #f54f59;
               }
-              div:nth-of-type(3):before {
-                background: none;
-                border: 2px solid #1890ff;
-                content: '';
-                display: block;
-                position: absolute;
-                top: -4px;
-                left: -4px;
-                right: -4px;
-                bottom: -4px;
-                pointer-events: none;
-                border-radius: 16px;
-              }
+              // div:nth-of-type(3):before {
+              //   background: none;
+              //   border: 2px solid #1890ff;
+              //   content: '';
+              //   display: block;
+              //   position: absolute;
+              //   top: -4px;
+              //   left: -4px;
+              //   right: -4px;
+              //   bottom: -4px;
+              //   pointer-events: none;
+              //   border-radius: 16px;
+              // }
             }
             .Slider {
               width: 235px;
@@ -799,19 +800,19 @@ header {
               div:nth-of-type(2) {
                 background-image: url(shadow-option-gradient.svg);
               }
-              div:nth-of-type(2):before {
-                background: none;
-                border: 2px solid #1890ff;
-                content: '';
-                display: block;
-                position: absolute;
-                top: -4px;
-                left: -4px;
-                right: -4px;
-                bottom: -4px;
-                pointer-events: none;
-                border-radius: 16px;
-              }
+              // div:nth-of-type(2):before {
+              //   background: none;
+              //   border: 2px solid #1890ff;
+              //   content: '';
+              //   display: block;
+              //   position: absolute;
+              //   top: -4px;
+              //   left: -4px;
+              //   right: -4px;
+              //   bottom: -4px;
+              //   pointer-events: none;
+              //   border-radius: 16px;
+              // }
             }
           }
         }

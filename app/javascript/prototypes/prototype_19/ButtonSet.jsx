@@ -31,10 +31,3 @@ export default class ButtonSet extends PureComponent {
     return <div className="ButtonSet">{buttonElements}</div>
   }
 }
-
-// ButtonSet.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   property: PropTypes.array.isRequired,
-//   options: PropTypes.array.isRequired,
-//   handleChange: PropTypes.func.isRequired
-// }

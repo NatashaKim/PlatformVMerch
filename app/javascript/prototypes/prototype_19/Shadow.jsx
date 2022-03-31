@@ -3,13 +3,7 @@ import React, { PureComponent } from 'react'
 export default class Shadow extends PureComponent {
   constructor(props) {
     super(props)
-    // this.shadow = React.createRef()
   }
-
-  // componentDidMount() {
-  //   const { shadow } = this.props
-  //   const variants = shadows[shadow.type].variants
-  // }
 
   render() {
     const { backgroundTheme, shadowType } = this.props
@@ -25,10 +19,7 @@ export default class Shadow extends PureComponent {
     }
 
     return (
-      <div
-        className="Shadow"
-        // ref={this.shadow}
-      >
+      <div className="Shadow">
         <img src={imgsrc} />
       </div>
     )

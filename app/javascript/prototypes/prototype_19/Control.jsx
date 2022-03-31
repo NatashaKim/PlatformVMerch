@@ -40,7 +40,6 @@ export default class Control extends PureComponent {
             <ButtonSet
               options={shapes}
               property={'ribbonShape'}
-              // value={value}
               handleChange={(value, property) =>
                 this.handleChange(value, property)
               }

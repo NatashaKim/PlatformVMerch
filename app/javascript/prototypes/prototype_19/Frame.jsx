@@ -34,7 +34,6 @@ export default class Frame extends React.Component {
   }
 
   componentDidMount() {
-    //this.props.scaleBox.style.transform = 'scale(1, 1)'
     const { containerClass } = this.props
     let firstCloudTags = [...this.refs.firstCloudRef.children]
     let popped = firstCloudTags.pop()

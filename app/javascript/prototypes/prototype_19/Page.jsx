@@ -139,28 +139,18 @@ export default class Page extends PureComponent {
     })
   }
 
-  // toggleChildMenu() {
-  //   this.setState((state) => ({
-  //     open: !state.open
-  //   }))
-  // }
-
   componentDidUpdate(prevProps, prevState) {
     this.componentDidMount()
   }
   componentDidMount() {
     let scaledWrapper = this.refs.artboardRef
-    //let scaledContent = this.refs.containerRef
     let applyScaling = (scaledWrapper) => {
-      // Get the scaled content, and reset its scaling for an instant
       let scaledContent = [...scaledWrapper.children][0]
       scaledContent.style.transform = 'scale(1, 1)'
 
       let { width: cw, height: ch } = scaledContent.getBoundingClientRect()
       let { width: ww, height: wh } = scaledWrapper.getBoundingClientRect()
 
-      //  let scaleAmtX = ww / cw;
-      //  let scaleAmtY = wh / ch;
       let scaleAmtX = Math.min(ww / cw, wh / ch)
       let scaleAmtY = scaleAmtX
 
