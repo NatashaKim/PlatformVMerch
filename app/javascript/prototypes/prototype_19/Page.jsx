@@ -204,6 +204,10 @@ export default class Page extends PureComponent {
             }
             handleInputChange={(value) => this.handleInputChange(value)}
             handleSampleAll={() => this.handleSampleAll()}
+            backgroundTheme={backgroundTheme}
+            tagNumber={tagNumber}
+            shadowType={shadowType}
+            ribbonShape={ribbonShape}
             // value={value}
           />
         </div>

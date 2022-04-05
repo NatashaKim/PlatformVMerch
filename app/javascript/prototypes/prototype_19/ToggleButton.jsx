@@ -15,6 +15,6 @@ export default class ToggleButton extends PureComponent {
       active: isOn
     })
 
-    return <div onClick={handleClick}></div>
+    return <div className={classes} onClick={handleClick}></div>
   }
 }

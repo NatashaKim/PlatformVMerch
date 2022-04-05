@@ -28,7 +28,15 @@ export default class Control extends PureComponent {
   }
 
   render() {
-    let { shapes, colors, shadows, handleSampleAll } = this.props
+    let {
+      shapes,
+      colors,
+      shadows,
+      handleSampleAll,
+      ribbonShape,
+      backgroundTheme,
+      shadowType
+    } = this.props
     let tagNumber = this.state.tagNumber
 
     return (
@@ -39,6 +47,7 @@ export default class Control extends PureComponent {
             <Input handleChange={(value) => this.handleInputChange(value)} />
             <ButtonSet
               options={shapes}
+              value={ribbonShape}
               property={'ribbonShape'}
               handleChange={(value, property) =>
                 this.handleChange(value, property)
@@ -50,6 +59,7 @@ export default class Control extends PureComponent {
             <h1>Теги</h1>
             <ButtonSet
               options={colors}
+              value={backgroundTheme}
               property={'backgroundTheme'}
               handleChange={(value, property) =>
                 this.handleChange(value, property)
@@ -69,6 +79,7 @@ export default class Control extends PureComponent {
             <h1>Фон</h1>
             <ButtonSet
               options={shadows}
+              value={shadowType}
               property={'shadowType'}
               handleChange={(value, property) =>
                 this.handleChange(value, property)

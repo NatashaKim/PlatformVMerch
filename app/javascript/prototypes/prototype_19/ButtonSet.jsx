@@ -6,11 +6,17 @@ import ToggleButton from './ToggleButton'
 export default class ButtonSet extends PureComponent {
   constructor(props) {
     super(props)
+    this.state = {
+      value: props.value
+    }
   }
 
   handleChange = (value) => {
     const { property, handleChange } = this.props
     handleChange(property, value)
+    this.setState({
+      value: value
+    })
   }
 
   render() {
@@ -21,7 +27,7 @@ export default class ButtonSet extends PureComponent {
       buttonElements.push(
         <ToggleButton
           text={option}
-          isOn={option === value}
+          isOn={option === this.state.value}
           handleClick={() => this.handleChange(option)}
           key={i}
         />
