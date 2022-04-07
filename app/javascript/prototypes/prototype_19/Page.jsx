@@ -73,17 +73,8 @@ const texts = [
 export default class Page extends PureComponent {
   constructor(props) {
     super(props)
-    // this.state = {
-    //   ControlValue: ControlValue
-    // }
 
-    //let colorValue = sample(colors)
-    //let containerClassValue = sample(containers)
-    //let tagNumberValue = Math.floor(Math.random() * 12)
     this.state = {
-      // backgroundTheme: props.backgroundTheme
-      //   ? props.backgroundTheme
-      //   : sample(colors),
       backgroundTheme: sample(colors),
       containerClass: sample(containers),
       tagNumber: Math.floor(Math.random() * 12),
@@ -91,7 +82,6 @@ export default class Page extends PureComponent {
       ribbonShape: sample(shapes),
       ribbonText: sample(texts)
     }
-    //this.toggleChildMenu = this.toggleChildMenu.bind(this)
   }
 
   handleChange = (value, property) => {
@@ -121,12 +111,6 @@ export default class Page extends PureComponent {
       ribbonText: value
     })
   }
-
-  // handleSliderChange = (value) => {
-  //   this.setState({
-  //     ribbonShape: value
-  //   })
-  // }
 
   handleSampleAll = () => {
     this.setState({
